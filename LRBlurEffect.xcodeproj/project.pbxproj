@@ -13,6 +13,7 @@
 		2C8BA5CE223A2EBD001C2D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8BA5CD223A2EBD001C2D51 /* Assets.xcassets */; };
 		2C8BA5D1223A2EBD001C2D51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8BA5CF223A2EBD001C2D51 /* LaunchScreen.storyboard */; };
 		2C8BA5D4223A2EBD001C2D51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8BA5D3223A2EBD001C2D51 /* main.m */; };
+		2C8BA5DC223A2ED7001C2D51 /* LRBlurEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8BA5DB223A2ED7001C2D51 /* LRBlurEffect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2C8BA5D0223A2EBD001C2D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C8BA5D2223A2EBD001C2D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C8BA5D3223A2EBD001C2D51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C8BA5DA223A2ED7001C2D51 /* LRBlurEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRBlurEffect.h; sourceTree = "<group>"; };
+		2C8BA5DB223A2ED7001C2D51 /* LRBlurEffect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRBlurEffect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				2C8BA5C5223A2EB0001C2D51 /* AppDelegate.m */,
 				2C8BA5C7223A2EB0001C2D51 /* ViewController.h */,
 				2C8BA5C8223A2EB0001C2D51 /* ViewController.m */,
+				2C8BA5DA223A2ED7001C2D51 /* LRBlurEffect.h */,
+				2C8BA5DB223A2ED7001C2D51 /* LRBlurEffect.m */,
 				2C8BA5CA223A2EB1001C2D51 /* Main.storyboard */,
 				2C8BA5CD223A2EBD001C2D51 /* Assets.xcassets */,
 				2C8BA5CF223A2EBD001C2D51 /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C8BA5C9223A2EB0001C2D51 /* ViewController.m in Sources */,
+				2C8BA5DC223A2ED7001C2D51 /* LRBlurEffect.m in Sources */,
 				2C8BA5D4223A2EBD001C2D51 /* main.m in Sources */,
 				2C8BA5C6223A2EB0001C2D51 /* AppDelegate.m in Sources */,
 			);
